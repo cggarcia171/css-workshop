@@ -70,3 +70,21 @@ body{
   border: 1px solid black;
   overflow-y: scroll;
 }
+.tryme span:nth-of-type(even){
+  color:orange;
+}
+.tryme span:nth-of-type(odd){
+  color:red;
+}
+.example1{
+  width: 200px;
+  height: 200px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url(images/w3schools.png), linear-gradient(to right, blue 0%, white 100%);
+  background-image: url(images/w3schools.png), -webkit-linear-gradient(to right, blue 0%, white 100%);
+  background-image: url(images/w3schools.png), -moz-linear-gradient(to right, blue 0%, white 100%);
+  background-image: url(images/w3schools.png), -o-linear-gradient(to right, blue 0%, white 100%);
+  background-blend-mode: darken;
+  background-image:
+}
