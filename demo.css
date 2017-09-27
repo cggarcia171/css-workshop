@@ -21,3 +21,17 @@ body{
   background: darkgreen;
   color: orange;
 }
+.gradient{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  background: repeating-radial-gradient(rgba(255,255,255,0),red 10%);
+  background: -webkit-repeating-radial-gradient(rgba(255,255,255,0),red 10%);
+  background: -moz-repeating-radial-gradient(rgba(255,255,255,0),red 10%);
+  background: -o-repeating-radial-gradient(rgba(255,255,255,0),red 10%);
+  border-width: 20px;
+  border-style: solid;
+  border-image: linear-gradient(45deg, grey,black,red);
+  border-color: red;
+  border-image-slice: 1;
+}
