@@ -15,3 +15,9 @@ body{
   position: relative;
   background-clip: padding-box;
 }
+.wrap{
+  width: 90px;
+  overflow-wrap: break-word;
+  background: darkgreen;
+  color: orange;
+}
