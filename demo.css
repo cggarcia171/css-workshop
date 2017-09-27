@@ -35,3 +35,17 @@ body{
   border-color: red;
   border-image-slice: 1;
 }
+.tran{
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  transition: width 2s, height 2s,background-color 3s, transform 3s;
+}
+.tran:hover{
+  transform: rotate(900deg);
+  background-color: red;
+}
+.tran:active{
+  width: 5000px;
+  height: 5000px;
+}
