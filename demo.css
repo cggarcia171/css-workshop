@@ -131,4 +131,52 @@ body{
 .textdec{
   text-decoration-line: underline;
   text-shadow: 2px 2px white;
+
+}
+/* list styles */
+.list-s{
+  list-style: armenian;
+  text-indent: 50px;
+}
+/*animation*/
+#ani1{
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  position: relative;
+  animation-name: ani;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  color: white;
+}
+@keyframes ani {
+  0% {background-color: black; left:0px;}
+  50% {background-color: red; left:100%;}
+  100% {background-color: black; left:0px;}
+}
+/*transform*/
+.hello{
+  width: 500px;
+  height: 100px;
+  background-color: yellow;
+  border: 2px solid green;
+  transform: skew(50deg, 30deg)
+}
+/*animation delay*/
+.why{
+  width: 100px;
+  height: 100px;
+  background: purple;
+  position: relative;
+  -webkit-animation-name: hello;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+@-webkit-keyframes hello{
+  from{left: 0px;}
+  to{left: 1000px;}
 }
