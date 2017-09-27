@@ -14,6 +14,11 @@ body{
   padding: 100px;
   position: relative;
   background-clip: padding-box;
+
+}
+.background-img:hover{
+  padding: 400px;
+  transition-duration: 5s;
 }
 .wrap{
   width: 90px;
@@ -87,4 +92,43 @@ body{
   background-image: url(images/w3schools.png), -o-linear-gradient(to right, blue 0%, white 100%);
   background-blend-mode: darken;
   background-image:
+}
+.align1{
+  text-align: left;
+}
+.align2{
+  text-align: center;
+}
+/* column */
+.column{
+  font-size: 20px;
+  column-count: 2;
+  column-gap: 40px;
+  column-rule: 8px dotted green;
+}
+/*box shadow*/
+.boxshadow{
+  width: 400px;
+  height: 200px;
+  background-color: purple;
+  box-shadow: 20px 20px 50px 20px black;
+
+}
+/* resize */
+.resizeable{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  overflow: auto;
+  resize: both;
+}
+/*text stroke*/
+.stroke{
+  font-size: 20px;
+  -webkit-text-stroke: 2px;
+}
+/*text-decoration*/
+.textdec{
+  text-decoration-line: underline;
+  text-shadow: 2px 2px white;
 }
