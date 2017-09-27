@@ -7,3 +7,11 @@ body{
   height: 50px;
   border-radius: 420%;
 }
+.background-img{
+  background-image: url(images/thing.jpeg);
+  height: 240px;
+  width: 240px;
+  padding: 100px;
+  position: relative;
+  background-clip: padding-box;
+}
